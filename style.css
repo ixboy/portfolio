@@ -337,7 +337,7 @@ section .title::after{
 
 /* projects section styling */
 .projects .title::after{
-    content: "who with me";
+    content: "My Solo & Collaborative Works";
 }
 .projects .carousel .card{
     background: #222;
@@ -492,4 +492,18 @@ section .title::after{
 .right form .button-area button:hover{
   color: crimson;
   background: none;
+}
+/* footer section styling */
+footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+footer span a{
+    color: crimson;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
 }
