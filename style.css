@@ -6,6 +6,10 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+body{
+    background-color: #eee;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -26,7 +30,7 @@ html{
 }
 
 
-/* all similar content styling codes */
+/* all similar content  codes */
 section{
     padding: 100px 0;
 }
@@ -72,7 +76,7 @@ section .title::after{
     font-size: 20px;
     color: #dc143c;
     padding: 0 5px;
-    background: #fff;
+    background: #eee;
     transform: translateX(-50%);
 }
 
@@ -96,7 +100,7 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: #fff;
+    color: #eee;
     font-size: 35px;
     font-weight: 600;
 }
@@ -105,7 +109,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
-    color: #fff;
+    color: #eee;
 }
 .navbar .menu li{
     list-style: none;
@@ -113,7 +117,7 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color: #fff;
+    color: #eee;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -142,7 +146,7 @@ section .title::after{
     bottom: 10px;
     text-align: center;
     line-height: 45px;
-    color: #fff;
+    color: #eee;
     z-index: 9999;
     font-size: 30px;
     border-radius: 6px;
@@ -162,12 +166,12 @@ section .title::after{
 }
 
 
-/* home section styling */
+/* home section  */
 .home{
     display: flex;
     background: url("images/banner.png") no-repeat center;
     height: 100vh;
-    color: #fff;
+    color: #eee;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -199,7 +203,7 @@ section .title::after{
 .home .home-content a{
     display: inline-block;
     background: crimson;
-    color: #fff;
+    color: #eee;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
@@ -214,7 +218,7 @@ section .title::after{
 }
 
 
-/* about section styling */
+/* about section  */
 .about .title::after{
     content: "who am I?";
 }
@@ -258,7 +262,7 @@ section .title::after{
     background: none;
 }
 
-/* skills section styling */
+/* skills section  */
 
 .skills .title::after{
     content: "knowledge";
@@ -321,7 +325,7 @@ section .title::after{
     width: 90%;
 }
 .skills-content .right .css::before{
-    width: 60%;
+    width: 85%;
 }
 .skills-content .right .js::before{
     width: 80%;
@@ -330,13 +334,29 @@ section .title::after{
     width: 50%;
 }
 .skills-content .right .rails::before{
+    width: 75%;
+}
+.skills-content .right .bootstrap::before{
     width: 80%;
+}
+.skills-content .right .github::before{
+    width: 70%;
 }
 
 
-/* projects section styling */
+/* projects section */
 .projects .title::after{
     content: "Web Apps";
+}
+
+.project-a {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: .8rem;
+}
+.project-a .link {
+    color: crimson;
 }
 .projects .carousel .card{
     background: #222;
@@ -373,7 +393,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .projects .carousel .card:hover img{
-    border-color: #fff;
+    border-color: #eee;
 }
 .owl-dots{
     text-align: center;
@@ -397,7 +417,7 @@ section .title::after{
     background: crimson!important;
 }
 
-/* contact section styling */
+/* contact section */
 .contact .title::after{
     content: "get in touch";
 }
@@ -474,7 +494,7 @@ section .title::after{
   align-items: center;
 }
 .right form .button-area button{
-  color: #fff;
+  color: #eee;
   display: block;
   width: 160px!important;
   height: 45px;
@@ -492,12 +512,19 @@ section .title::after{
   color: crimson;
   background: none;
 }
-/* footer section styling */
+/* footer section */
 footer{
     background: #111;
     padding: 15px 23px;
     color: #fff;
     text-align: center;
+}
+footer .link{
+    color: #0A66C2;
+}
+
+footer .twitter{
+    color: #00BFF3;
 }
 footer span a{
     color: crimson;
@@ -636,4 +663,3 @@ footer span a:hover{
         line-height: 38px;
     }
 }
-
