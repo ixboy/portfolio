@@ -42,7 +42,9 @@
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Ismael Antonio</div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="#">Hire me</a>
+                <a href="https://www.linkedin.com/in/ismaelantonio/" target="_blank"><img src="images/icon-linkedin.png" alt="My Linkedin"></a>
+                <a href="mailto:ismaelixboy@gmail.com"><img src="images/icon-email.png" alt="My Email"></a>
+                <a href="https://twitter.com/ismaelixboy" target="_blank"><img src="images/icon-twitter.png" alt="My Twitter"></a>
             </div>
         </div>
     </section>
@@ -138,43 +140,53 @@
         <section class="projects" id="projects">
             <div class="max-width">
                 <h2 class="title">My projects</h2>
-                <div class="project-a">Here are a few design projects I've worked on recently. Want to see more? <a class="link" href="mailto:ismaelixboy@gmail.com">Email Me.</a> </div>
+                <div class="project-a">Here are a few designed projects I've worked on recently. Want to see more? <a class="link" href="mailto:ismaelixboy@gmail.com">Email Me.</a> </div>
                 <div class="carousel owl-carousel">
-                    <div class="card">
+                    <div class="card one">
                         <div class="box">
-                            <img src="images/project-1.jpeg" alt="">
-                            <div class="text">projects name</div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <img src="images/social_media.png" alt="Social Media">
+                            <div class="text">Social Media App</div>
+                            <p>this is a Social Media app. You sign up, add other users as friends, write or read posts from your friends, comment and like.</p>
                         </div>
+                        <a href="https://ancient-sierra-54683.herokuapp.com/users/sign_in" target="_blank" class="linked">View Project</a>
+                        <a href="https://github.com/ixboy/ror-social-scaffold" target="_blank" class="linked">View Code</a>
                     </div>
-                    <div class="card">
+                    <div class="card two">
                         <div class="box">
-                            <img src="images/project-2.jpeg" alt="">
-                            <div class="text">projects name</div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <img src="images/project-4.png" alt="">
+                            <div class="text">Client's Website</div>
+                            <p>an online agency. Professional group of people who are passionate and ready to build your site from scratch.</p>
                         </div>
+                        <a href="https://ixboy.github.io/client-s_website/" target="_blank" class="linked">View Project</a>
+                        <a href="https://github.com/ixboy/client-s_website" target="_blank" class="linked">View Code</a>
                     </div>
-                    <div class="card">
+                    <div class="card three">
                         <div class="box">
-                            <img src="images/project-3.jpeg" alt="">
-                            <div class="text">projects name</div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <img src="images/screenshot.png" alt="">
+                            <div class="text">Ruby Web Scraper</div>
+                            <p>An application that scraps the web and retrieves information from movie websites, such as the movie title, it's quality, etc.</p>
                         </div>
+                        <a href="https://replit.com/@ixboy/scraper#main.rb" target="_blank" class="linked">View Project</a>
+                        <a href="https://github.com/ixboy/web_scraper" target="_blank" class="linked">View Code</a>
                     </div>
-                    <div class="card">
+                    <div class="card four">
                         <div class="box">
-                            <img src="images/project-4.jpeg" alt="">
-                            <div class="text">projects name</div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <img src="images/project-4.png" alt="">
+                            <div class="text">Client's Website</div>
+                            <p>an online agency. Professional group of people who are passionate and ready to build your site from scratch.</p>
                         </div>
+                        <a href="https://ixboy.github.io/client-s_website/" target="_blank" class="linked">View Project</a>
+                        <a href="https://github.com/ixboy/client-s_website" target="_blank" class="linked">View Code</a>
                     </div>
-                    <div class="card">
+                    <!-- <div class="card five">
                         <div class="box">
                             <img src="images/project-5.jpeg" alt="">
                             <div class="text">Project name</div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
-                    </div>
+                        <a href="https://ancient-sierra-54683.herokuapp.com/users/sign_in" target="_blank" class="linked">View Project</a>
+                        <a href="https://github.com/ixboy/ror-social-scaffold" target="_blank" class="linked">View Code</a>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -214,23 +226,24 @@
                     </div>
                     <div class="column right">
                         <div class="text">Message me</div>
-                        <form action="#">
+                        <form action="https://mailthis.to/ixboy" method="POST">
                             <div class="fields">
                                 <div class="field name">
                                     <input type="text" placeholder="Name" required>
                                 </div>
                                 <div class="field email">
-                                    <input type="email" placeholder="Email" required>
+                                    <input type="email" placeholder="Email" name="_replyto" required>
                                 </div>
                             </div>
                             <div class="field">
-                                <input type="text" placeholder="Subject" required>
+                                <input type="text" placeholder="Subject" name="Message" required>
                             </div>
                             <div class="field textarea">
-                                <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                                <textarea cols="30" rows="10" placeholder="Message.." name="Message" required></textarea>
+                                <input type="hidden" name="_honeypot" value="">
                             </div>
                             <div class="button-area">
-                                <button type="submit">Send message</button>
+                                <button type="submit" value="Send message">Send message</button>
                             </div>
                         </form>
                     </div>
@@ -241,7 +254,7 @@
                 <span><a class="link" aria-label="My Link" target="_blank" href="https://www.linkedin.com/in/ismaelantonio/"><i class="icon fa fa-linkedin" aria-hidden="true"></i></a></span>
                 <span><a class="twitter" aria-label="My Twitter" target="_blank" href="https://twitter.com/ismaelixboy"><i class="icon fa fa-twitter" aria-hidden="true"></i></a></span>
                 <a aria-label="My Github" target="_blank" href="https://github.com/ixboy"><i class="icon fa fa-github" aria-hidden="true"></i></a>
-                <span> | 2021 Ismael Ixboy</span>
+                <span> | <span class="far fa-copyright"></span> 2021 <a href="#home">Ismael Ixboy</a></span>
         </footer>    
         <script src="main.js"></script>
 </body>
