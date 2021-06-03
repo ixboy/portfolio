@@ -627,10 +627,7 @@ footer span a:hover{
     .home .home-content .text-3{
         font-size: 35px;
     }
-    .home .home-content a{
-        font-size: 23px;
-        padding: 10px 30px;
-    }
+    
     .max-width{
         max-width: 930px;
     }
@@ -666,9 +663,12 @@ footer span a:hover{
     .home .home-content .text-3{
         font-size: 32px;
     }
+
     .home .home-content a{
-        font-size: 20px;
+        display: inline-block;
+        margin: .7rem .5rem;
     }
+    
     .services .serv-content .card{
         width: 100%;
     }
