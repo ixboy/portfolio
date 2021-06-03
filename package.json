@@ -4,7 +4,6 @@
   "description": "my personal portfiolio",
   "main": "main.js",
   "scripts": {
-    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
