@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "my personal portfiolio",
+  "main": "main.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ixboy/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://ixboy.github.io/portfolio",
+  "bugs": {
+    "url": "https://github.com/ixboy/portfolio/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.0"
+  }
+}
