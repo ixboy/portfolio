@@ -390,9 +390,9 @@ section .title::after{
     background-repeat: no-repeat;
 }
 .projects .carousel .two:hover .box{
-    background-image: url(images/clients_site.png);
+    background-image: url(images/main-screanshot2.png);
     background-size: cover;
-    background-position: initial;
+    background-position: center;
     background-repeat: no-repeat;
 }
 .projects .carousel .three:hover .box{
