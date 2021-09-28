@@ -299,7 +299,7 @@ section .title::after {
   font-weight: 500;
   padding: 10px 30px;
   margin-top: 20px;
-  border-radius: 20px;
+  border-radius: 30px;
   border: 2px solid #fe4066;
   transition: all 0.3s ease;
 }
